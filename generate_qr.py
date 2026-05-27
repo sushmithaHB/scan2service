@@ -1,8 +1,8 @@
 import qrcode
 
-url = "http://127.0.0.1:5000/"
+url = "https://scan2service.onrender.com"
 
 img = qrcode.make(url)
-img.save("test_qr.png")
+img.save("scan2service_qr.png")
 
-print("Test QR created")
+print("QR READY")
